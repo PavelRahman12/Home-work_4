@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    height: 600px;
+    width: 800px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    border: 3px solid black;
+}
+.one{
+    width: 189px;
+    height: 110px;
+    background-color: rgb(255, 254, 254);
+}
+.potaka{
+    height: 70px;
+    width: 70px;
+    background-color:red;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.two{
+     width: 189px;
+    height: 110px;
+    background-color: rgb(254, 253, 253);
+    top: 0%;
+    right: 0%;
+    position: absolute;
+   
+} 
+
+.two-1{
+    height: 110px;
+    width: 30px;
+    background-color: blue;
+    margin-left: 50px;
+}
+.two-2{
+    height: 30px;
+    width: 189px;
+    background-color: blue;
+    margin-top: -70px;
+}
+
+.three{
+   width: 189px;
+    height: 110px;
+    background-color:yellow;
+    top: 0%;
+    left: 50%;
+    position: absolute; 
+    transform: translateX(-50%);
+}
+.three-1{
+    height: 35px;
+    width: 189px;
+    background: red;
+}
+.three-2{
+    height: 35px;
+    width: 189px;
+    background: green;
+    margin-top: 40px;
+}
+.three-3{
+    height: 35px;
+    width: 35px;
+    clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+    margin-left: 73px;
+    margin-top: -73px;
+    background-color: rgb(16, 16, 16);
+
+}
+.four{
+   width: 189px;
+    height: 110px;
+    background-color: rgb(255, 0, 0);
+    top: 50%;
+    left: 0%;
+    position: absolute; 
+   transform: translateY(-50%);
+}
+.four-1{
+    height: 35px;
+    width: 35px;
+    clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+    margin-left: 75px;
+    margin-top: 35px;
+    background-color: rgb(251, 251, 251);
+}
+.five{
+    width: 189px;
+    height: 110px;
+    background-color: yellow;
+    top: 50%;
+    left: 50%;
+    position: absolute; 
+   transform: translate(-50%, -50%);    
+}
+
+.five-1{
+    height: 110px;
+    width: 63px;
+    background-color: blue;
+}
+.five-2{
+    height: 110px;
+    width: 63px;
+    background-color: rgb(255, 2, 2);
+    margin-left: 127px;
+    margin-top: -110px;
+}
+
+
+.six{
+   width: 189px;
+    height: 110px;
+    background-color: green;
+    top: 50%;
+    right: 0px;
+    position: absolute; 
+    transform: translateY(-50%);
+}
+.six-1{
+    height: 50%;
+    width: 189px;
+    background-color: red;
+
+}
+.six-2{
+     height: 35px;
+    width: 35px;
+    clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+    margin-left: 80px;
+    margin-top: -15px;
+    background-color: yellow;
+}
